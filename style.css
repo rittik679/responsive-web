@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0vw 4vw;
-    border-bottom: 0.1px solid #666;
+    border-bottom: 0.1px solid #03DEBE;
     
 }
 ul i{
@@ -21,6 +21,7 @@ ul i{
 li{
     list-style: none;
     cursor: pointer;
+    font-size: 1.6vw;
 }
 .nav-2 ul{
     display: flex;
@@ -40,7 +41,7 @@ li{
     width: 45%;
     height: 100%;
     /* background-color: red; */
-    padding: 10vh 2vw;
+    /* padding: 5vh 2vw; */
 }
 .right{
     width: 45%;
@@ -58,28 +59,31 @@ li{
 }
 
 .left h2{
+    margin-top: 10vh;
     font-size: 4vw;
     line-height: 7vh;
-    padding-bottom: 2vh;
+    padding: 5vh 2vw;
 }
 .left h2 span{
-    color: lightseagreen;
+    color: #03DEBE;
 }
 .left p{
     font-size: 1.5vw;
-    padding: 5vh 0vw;
+    padding: 2vh 2vw;
     width: 80%;
 
 }
 .left button{
     padding: 2vh 3vw;
     border: none;
-    background-color: lightseagreen;
+    background-color: #03DEBE;
     border-radius: 3px;
     font-family: serif;
     font-size: 1.2vw;
     cursor: pointer;
     position: absolute;
+    margin-left: 2vw;
+    margin-top: 5vh;
    
 }
 
