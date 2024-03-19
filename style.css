@@ -65,7 +65,7 @@ li{
     padding: 5vh 2vw;
 }
 .left h2 span{
-    color: #03DEBE;
+    color: #018673;
 }
 .left p{
     font-size: 1.5vw;
@@ -76,10 +76,11 @@ li{
 .left button{
     padding: 2vh 3vw;
     border: none;
-    background-color: #03DEBE;
+    background-color: #018673;
     border-radius: 3px;
     font-family: serif;
-    font-size: 1.2vw;
+    font-size: 1.4vw;
+    color: white;
     cursor: pointer;
     position: absolute;
     margin-left: 2vw;
