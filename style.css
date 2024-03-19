@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.nav{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 4vw;
+    border-bottom: 0.1px solid #666;
+    
+}
+ul i{
+    font-size: 2vw;
+    font-weight: 8vw;
+    display: none;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+.nav-2 ul{
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+}
+.main{
+    height: 85vh;
+    width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   
+   
+  
+}
+.left{
+    width: 45%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 10vh 2vw;
+}
+.right{
+    width: 45%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+.right img{
+    width: 100%;
+    height: 100%;
+  border-radius: 30%;
+  margin-top: 2vh;
+   
+   
+    
+}
+
+.left h2{
+    font-size: 4vw;
+    line-height: 7vh;
+    padding-bottom: 2vh;
+}
+.left h2 span{
+    color: lightseagreen;
+}
+.left p{
+    font-size: 1.5vw;
+    padding: 5vh 0vw;
+    width: 80%;
+
+}
+.left button{
+    padding: 2vh 3vw;
+    border: none;
+    background-color: lightseagreen;
+    border-radius: 3px;
+    font-family: serif;
+    font-size: 1.2vw;
+    cursor: pointer;
+    position: absolute;
+   
+}
+
+
+
+
+@media (max-width:600px){
+
+    .nav{
+        background-color: #3467;
+    }
+    
+    .nav-2 ul li{
+        display: none;
+    }
+    ul i{
+        display: block;
+        font-size: 7vw;
+        font-weight: 8vw;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .left{
+        width: 90%;
+        margin-left: 8%;
+    }
+    .right{
+        width: 80%;
+        margin-left: 8%;
+        
+    }
+
+    .left h2{
+        font-size: 8vw;
+        font-weight: 800;
+        line-height: 5vh;
+    }
+    .left p{
+        font-size: 3vw;
+    }
+    #btn{
+        font-size: 4vw;
+        padding: 1.2vh 4vw;
+    }
+}
