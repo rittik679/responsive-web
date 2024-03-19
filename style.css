@@ -11,6 +11,7 @@
     justify-content: space-between;
     padding: 0vw 4vw;
     border-bottom: 0.1px solid #03DEBE;
+    /* background-color: red; */
     
 }
 ul i{
@@ -29,10 +30,11 @@ li{
     gap: 4vw;
 }
 .main{
-    height: 85vh;
+    height: 90vh;
     width: 100%;
    display: flex;
    justify-content: space-evenly;
+   flex-wrap: wrap;
    
    
   
@@ -40,7 +42,7 @@ li{
 .left{
     width: 45%;
     height: 100%;
-    /* background-color: red; */
+    /* background-color: blue; */
     /* padding: 5vh 2vw; */
 }
 .right{
@@ -53,9 +55,7 @@ li{
     height: 100%;
   border-radius: 30%;
   margin-top: 2vh;
-   
-   
-    
+  object-fit: cover; 
 }
 
 .left h2{
@@ -92,11 +92,12 @@ li{
 
 
 @media (max-width:600px){
-
     .nav{
-        background-color: #3467;
+        border-bottom: none;
     }
-    
+    .nav h2{
+        color: #018673;
+    }
     .nav-2 ul li{
         display: none;
     }
@@ -104,28 +105,48 @@ li{
         display: block;
         font-size: 7vw;
         font-weight: 8vw;
+        color: #018673;
     }
     .main{
+      
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        
+    
     }
     .left{
         width: 90%;
-        margin-left: 8%;
+        height: 60%;
+       
     }
     .right{
-        width: 80%;
-        margin-left: 8%;
+        width: 90%;
+        height: 40%;
+       
         
+        
+    }
+    .right img{
+        width: 100%;
+        height: 100%;
+      border-radius: 20%;
+     padding: 2vh 2vw;
+      
     }
 
     .left h2{
         font-size: 8vw;
         font-weight: 800;
         line-height: 5vh;
+        width: 100%;
+        margin-top: 1vh;
+       
     }
     .left p{
         font-size: 3vw;
+        width: 90%;
     }
     #btn{
         font-size: 4vw;
